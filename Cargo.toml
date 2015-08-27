@@ -2,3 +2,7 @@
 name = "rust_in_other_languages"
 version = "0.1.0"
 authors = ["Alexander Popov <alex.val.popov@gmail.com>"]
+
+[lib]
+name = "embed"
+crate-type = ["dylib"]
